@@ -1,5 +1,5 @@
 import { BrowserRouter,Routes,Route } from "react-router-dom"
-
+import Row from './Project Netflix/Row'
 import requests from './Project Netflix/Request'
 import Header from './Project Netflix/Header'
 import Movie from "./Project Netflix/Movie"
@@ -7,10 +7,6 @@ import Cast from "./Project Netflix/Cast"
 import Navbar from './Project Netflix/Navbar'
 import Footer from './Project Netflix/Footer'
 import Login from './Project Netflix/Login'
-
-import React, { Suspense } from "react"
-
-const Row = React.lazy(()=>import('./Project Netflix/Row'))
 
 const App = () => {
 
