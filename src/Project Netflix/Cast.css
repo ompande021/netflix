@@ -1,0 +1,9 @@
+.Cast{
+    color: white;
+    text-align: center;
+}
+#castimg{
+    height: 300px;
+    width: 300px;
+    border-radius: 50% ;
+}
